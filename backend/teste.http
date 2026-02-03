@@ -1,0 +1,13 @@
+### Teste 1: Criar um Usuário (POST)
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Bernardo",
+  "email": "bernardo@safegas.com",
+  "password": "123"
+}
+
+### Teste 2: Listar Usuários (GET)
+GET http://localhost:8080/users
+
